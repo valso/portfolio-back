@@ -25,15 +25,6 @@ Install dependencies:
 npm install
 ⚙️ Configuration
 
-Create a .env file at the root of the project:
-
-PORT=3000
-
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=your_database
-DB_USER=root
-DB_PASSWORD=your_password
 
 Make sure your MySQL server is running and that the database exists.
 
@@ -47,7 +38,7 @@ The project uses Nodemon, so the server automatically restarts when files are mo
 
 The API will be available at:
 
-http://localhost:3000
+http://localhost:5001
 📁 Project Structure
 back/
 ├── node_modules/
